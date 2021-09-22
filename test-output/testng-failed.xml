@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Guru 99 Smoke Test Demo(failed)">
+    <groups>
+      <run>
+        <include name="strong_ties"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Testng.Selenium.Demo.TestngGroups">
+        <methods>
+          <include name="verifyFirstNameField"/>
+          <include name="logIn"/>
+          <include name="verifyMobileNoField"/>
+          <include name="verifyDOBField"/>
+        </methods>
+      </class> <!-- Testng.Selenium.Demo.TestngGroups -->
+    </classes>
+  </test> <!-- Guru 99 Smoke Test Demo(failed) -->
+</suite> <!-- Failed suite [Suite] -->
