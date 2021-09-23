@@ -32,7 +32,7 @@ public class BSuitsASuits {
     	System.out.println("depends on Executed first method");
     }
     
-    @Test
+    @Test(dependsOnMethods = "beforeSuite1")
     public void afterSuite1() {
     	System.out.println("Second method Executed");
     }

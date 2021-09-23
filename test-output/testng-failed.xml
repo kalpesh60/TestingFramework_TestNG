@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <test thread-count="5" name="Guru 99 Smoke Test Demo(failed)">
-    <groups>
-      <run>
-        <include name="strong_ties"/>
-      </run>
-    </groups>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testng.Selenium.Demo.TestngGroups">
+      <class name="Testng.Selenium.Demo.DataProviderInTestNG">
         <methods>
-          <include name="verifyFirstNameField"/>
-          <include name="logIn"/>
-          <include name="verifyMobileNoField"/>
-          <include name="verifyDOBField"/>
+          <include name="firstName"/>
         </methods>
-      </class> <!-- Testng.Selenium.Demo.TestngGroups -->
+      </class> <!-- Testng.Selenium.Demo.DataProviderInTestNG -->
     </classes>
-  </test> <!-- Guru 99 Smoke Test Demo(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

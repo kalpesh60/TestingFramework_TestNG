@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!-- <suite thread-count="2" verbose="2" parallel="tests" name="test Suite">
-         
-  <test name="All class">
-	 <classes>
-	   <class name="Testng.Selenium.Demo.EbayTestNG"/>
-	   <class name="Testng.Selenium.Demo.TestNGDemoFacebook"/>
-	   <class name="Testng.Selenium.Demo.BSuitsASuits">
-	   </class>
-	 </classes>
-   </test>
-</suite>-->
-
-	<suite name="Suite">	
-		<test name="Group Test Demo">	
-			<groups>	
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>	
 				<run>	
-   					 <include name="group1" />	
+   					 <include name="group1" />
         		</run>	
        		</groups>	
-			<classes>	
-					<class name="Testng.Selenium.Demo.TestngGroups" />	
-           	</classes>	
-		</test>	
-  </suite>
+    
+    <classes>
+      <class name="Testng.Selenium.Demo.TestngGroups"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

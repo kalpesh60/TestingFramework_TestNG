@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="methods" name="Failed suite [test Suite]" verbose="2">
-  <test thread-count="2" parallel="methods" name="facebook(failed)" verbose="2">
+<suite parallel="methods" name="Failed suite [test Suite]" verbose="2">
+  <test thread-count="5" parallel="methods" name="All class(failed)" verbose="2">
     <classes>
       <class name="Testng.Selenium.Demo.EbayTestNG">
         <methods>
@@ -11,5 +11,5 @@
         </methods>
       </class> <!-- Testng.Selenium.Demo.EbayTestNG -->
     </classes>
-  </test> <!-- facebook(failed) -->
+  </test> <!-- All class(failed) -->
 </suite> <!-- Failed suite [test Suite] -->

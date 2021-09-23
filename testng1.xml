@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite verbose="2" parallel="tests" name="test Suite">
+         
+  <test name="All class">
+	 <classes>
+	   <class name="Testng.Selenium.Demo.EbayTestNG"/>
+	   <class name="Testng.Selenium.Demo.TestNGDemoFacebook"/>
+	   <class name="Testng.Selenium.Demo.BSuitsASuits">
+	   </class>
+	 </classes>
+   </test>
+</suite>
